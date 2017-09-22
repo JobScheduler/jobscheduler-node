@@ -1,0 +1,28 @@
+{
+  "name": "jobscheduler-node",
+  "version": "0.1.0",
+  "description": "The node client for the JobScheduler API",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/eslint/bin/eslint.js lib/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JobScheduler/jobscheduler-node.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JobScheduler/jobscheduler-node/issues"
+  },
+  "homepage": "https://github.com/JobScheduler/jobscheduler-node#readme",
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
