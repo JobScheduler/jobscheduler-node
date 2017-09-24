@@ -1,6 +1,6 @@
 {
   "name": "jobscheduler-client",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "The node client for the JobScheduler API",
   "main": "index.js",
   "directories": {
