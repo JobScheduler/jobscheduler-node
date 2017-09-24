@@ -32,7 +32,7 @@ describe('jobs', function () {
 
       jobScheduler.jobs.createJob(data)
         .then((response) => {
-          console.log(response);
+          // console.log(response);
           return response
         })
         .then((response) => jobScheduler.jobs.disableJob(response.id))
@@ -52,7 +52,7 @@ describe('jobs', function () {
       // console.log(jobScheduler.jobs);
       jobScheduler.jobs.getAllJobs()
         .then((response) => {
-          console.log(response);
+          // console.log(response);
           done()
         })
         .catch((error) => {
@@ -70,7 +70,7 @@ describe('jobs', function () {
 
       jobScheduler.jobs.getJob(jobId)
         .then((response) => {
-          console.log(response);
+          // console.log(response);
           done()
         })
         .catch((error) => {
@@ -88,7 +88,7 @@ describe('jobs', function () {
 
       jobScheduler.jobs.deleteJob(jobId)
         .then((response) => {
-          console.log(response);
+          // console.log(response);
           done()
         })
         .catch((error) => {
@@ -109,7 +109,7 @@ describe('jobs', function () {
 
       jobScheduler.jobs.updateJob(jobId, dataUpdate)
         .then((response) => {
-          console.log(response);
+          // console.log(response);
           done()
         })
         .catch((error) => {
@@ -127,7 +127,7 @@ describe('jobs', function () {
 
       jobScheduler.jobs.enableJob(jobId)
         .then((response) => {
-          console.log(response);
+          // console.log(response);
           done()
         })
         .catch((error) => {
@@ -144,7 +144,7 @@ describe('jobs', function () {
 
       jobScheduler.jobs.disableJob(jobId)
         .then((response) => {
-          console.log(response);
+          // console.log(response);
           done()
         })
         .catch((error) => {
