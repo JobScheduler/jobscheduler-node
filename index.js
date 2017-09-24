@@ -1,4 +1,4 @@
-const JobScheduler = require('./jobscheduler');
+const JobScheduler = require('./lib/jobscheduler');
 
 module.exports = (apiKey) => {
   return new JobScheduler(apiKey);
